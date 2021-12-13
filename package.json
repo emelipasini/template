@@ -1,0 +1,35 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/emelipasini/template.git",
+  "license": "MIT",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "start": "nodemon",
+    "start:prod": "node ./dist/src/app",
+    "build": "tsc -p tsconfig.prod.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.40",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "config": "^3.3.6"
+  }
+}
